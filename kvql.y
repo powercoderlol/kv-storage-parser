@@ -1,5 +1,5 @@
-%lex-param		{ Storage * pStorage }
-%parse-param	{ Storage * pStorage }
+%lex-param      { Storage * pStorage }
+%parse-param    { Storage * pStorage }
 %define api.pure
 %define parse.error verbose
 

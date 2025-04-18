@@ -50,7 +50,7 @@ inline void print_parser_stage(const std::string& stage) {
 #include "gen/llkvql.cpp"
 
 static void yyerror(Storage *pStorage, const char *szMessage) {
-  std::cout << "Error\n";
+  std::cout << "Error: " << szMessage << "\n";
 }
 
 static int yylex(YYSTYPE *yylval, Storage *pStorage) {
